@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*box 1*/
+
+.box1 {
+    height: 630px;
+    width: 40vw;
+    position: absolute;
+    background-color: #E6DACE;
+    box-shadow: 0 2px 18px 0 rgb(129 162 182 / 20%);
+}
+
+
+/*navbar*/
+
+.navbar {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    z-index: 99;
+    box-shadow: 0 18px 18px 0 rgb(129 162 182 / 30%);
+}
+
+.nav-left {
+    width: 50%;
+    display: flex;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 50%;
+    border-radius: 100px;
+}
+
+.nav-left h1 {
+    padding-top: 20px;
+    font-size: x-large;
+}
+
+.nav-left h1 a {
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    padding-top: 45px;
+    transition: all 0.3s linear;
+}
+
+.nav-left h1 a span {
+    font-size: 17px;
+    opacity: 80%;
+    font-weight: 100;
+    transition: all 0.3s linear;
+}
+
+.nav-left h1 a:hover {
+    color: gray;
+    text-shadow: 5px 5px rgb(129 162 182 / 30%);
+}
+
+.nav-left h1 a span:hover {
+    color: black;
+    opacity: 100%;
+    text-shadow: 5px 5px rgb(129 162 182 / 30%);
+}
+
+.nav-right {
+    width: 50%;
+}
+
+.nav-right ul {
+    float: right;
+    display: flex;
+    list-style: none;
+    text-align: right;
+}
+
+.nav-right ul li {
+    padding: 8px;
+}
+
+.nav-right ul li a {
+    font-size: 12px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-right ul li a:hover {
+    color: gray;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-shadow: 5px 5px rgb(129 162 182 / 20%);
+    border-radius: 100px;
+}
+
+
+/*box 2*/
+
+.box2 {
+    display: flex;
+    position: relative;
+    margin: 100px 310px;
+    box-shadow: 0 18px 18px 0 rgb(129 162 182 / 50%);
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    background-color: #E6DACE;
+    text-align: center;
+}
+
+.text {
+    padding: 30px 0px;
+}
+
+.text img {
+    width: 150px;
+    border-radius: 100px;
+    transition: all 0.3s linear;
+}
+
+.text img:hover {
+    width: 200p;
+    box-shadow: 0 18px 18px 0 rgb(129 162 182 / 50%);
+}
+
+.text h2 {
+    padding: 15px 0px;
+}
+
+.buttons {
+    background-color: white;
+    text-align: center;
+}
+
+.buttons a img {
+    margin: 5px 2px;
+    padding: 1px 8px;
+    opacity: 70%;
+    transition: all 0.3s linear;
+}
+
+.buttons a img:hover {
+    opacity: 100%;
+    border-radius: 100%;
+    box-shadow: 0 18px 18px 0 rgb(129 162 182 / 50%);
+}
+
+.right {
+    width: 70%;
+    background-color: white;
+}
+
+.right h1 {
+    font-size: 100px;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 50px;
+}
+
+.right h3 {
+    font-family: cursive;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.resume {
+    margin-top: 20px;
+    margin-left: 30px;
+    border: 1px solid blue;
+    padding: 5px 30px;
+    border-radius: 25px;
+    background-color: blue;
+}
+
+.projects {
+    margin-top: 20px;
+    margin-left: 30px;
+    border: 1px solid black;
+    padding: 5px 25px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.resume a {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+    transition: all 0.1s linear;
+}
+
+.resume a:hover {
+    font-size: 12px;
+}
+
+.projects a {
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+    transition: all 0.1s linear;
+}
+
+.projects a:hover {
+    font-size: 12px;
+}
+
+.right p {
+    font-family: sans-serif;
+    font-size: small;
+    color: gray;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+
+/*footer*/
+
+.footer {
+    display: flex;
+    padding: 30px;
+    font-size: 13px;
+}
+
+.footerLeft {
+    width: 50%;
+}
+
+.footerRight {
+    width: 50%;
+    margin-left: 300px;
+}
+
+.footerRight th,
+td {
+    padding-left: 60px;
+}
+
+.footerRight table tr td a img {
+    width: 15px;
+    transition: all 0.3s linear;
+}
+
+.footerRight table tr td a img:hover {
+    color: black;
+    opacity: 100%;
+    box-shadow: 0 18px 18px 0 rgb(129 162 182 / 50%);
+}
+
+@media(max-width:500px) {
+    .navbar {
+        display: block;
+        font-size: 10px;
+    }
+    .nav-left {
+        display: block;
+        font-size: 10px;
+    }
+    .nav-right {
+        display: block;
+        font-size: 10px;
+    }
+}

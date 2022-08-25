@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E6DACE;
+}
+
+
+/*navbar*/
+
+.navbar {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+    z-index: 99;
+    box-shadow: 0 18px 18px 0 rgb(129 162 182 / 30%);
+}
+
+.nav-left {
+    width: 50%;
+    display: flex;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 50%;
+    border-radius: 100px;
+}
+
+.nav-left h1 {
+    padding-top: 20px;
+    font-size: x-large;
+}
+
+.nav-left h1 a {
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    padding-top: 45px;
+    transition: all 0.3s linear;
+}
+
+.nav-left h1 a span {
+    font-size: 17px;
+    opacity: 80%;
+    font-weight: 100;
+    transition: all 0.3s linear;
+}
+
+.nav-left h1 a:hover {
+    color: gray;
+    text-shadow: 5px 5px rgb(129 162 182 / 30%);
+}
+
+.nav-left h1 a span:hover {
+    color: black;
+    opacity: 100%;
+    text-shadow: 5px 5px rgb(129 162 182 / 30%);
+}
+
+.nav-right {
+    width: 50%;
+}
+
+.nav-right ul {
+    float: right;
+    display: flex;
+    list-style: none;
+    text-align: right;
+}
+
+.nav-right ul li {
+    padding: 8px;
+}
+
+.nav-right ul li a {
+    font-size: 12px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-right ul li a:hover {
+    color: gray;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-shadow: 5px 5px rgb(129 162 182 / 20%);
+    border-radius: 100px;
+}
+
+
+/* header */
+
+.header {
+    text-align: center;
+}
+
+.header p {
+    margin-top: 80px;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+.header p span {
+    border: 1px solid blue;
+    color: blue;
+    background-color: blue;
+}
+
+.header span {
+    font-size: 10px;
+}
+
+
+/* content */
+
+.contact-container {
+    margin: 50px 50px;
+    background-color: white;
+    padding: 30px;
+}
+
+.contact-text {
+    border-bottom: 1px solid gray;
+}
+
+.filler {
+    display: inline-block;
+    margin: 22px 20px 4px 28px;
+    padding: 10px;
+    width: 42%;
+    font-size: inherit;
+}
+
+.button {
+    color: #fff!important;
+    background-color: #000!important;
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    margin-left: 29px;
+}

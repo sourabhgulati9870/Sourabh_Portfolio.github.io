@@ -1,0 +1,87 @@
+*{margin: 0;
+padding: 0;}
+
+/*Header*/
+.navbar{position: sticky; top: 0; border: 2px gray; z-index: 999;}
+  .navbar ul{cursor: pointer; background-color:black}
+    .navbar ul li{display: inline-block; list-style: none; padding:15px 16px; letter-spacing: 4px}
+      .navbar ul li a{text-decoration: none; color:white;}
+      .navbar ul li a:hover{color: gray;}
+
+/*Project Section*/
+.flex-container {display: flex; }
+  .display-container{color: white; margin: 10px; position: relative;} 
+  .display-container img{width:100%}
+  .text h1{font-family: cursive;}
+  .top-left{position: absolute; top: 0px; left: 0px; background-color: black; padding: 8px 16px!important; font-family: Verdana,sans-serif; font-size: 15px; line-height: 1.5;}
+/*First Image*/
+.imagefirst img{
+  text-align: center;
+  width: 100%;
+  height:620px;
+}
+
+
+
+
+/*About*/
+
+#About {text-align: center!important; margin: 0px 230px;}
+#About p{text-align: justify!important; font-family: cursive;}
+#About h1{border-bottom: 1px solid gray; font-family: cursive;}
+  .container{margin-top: 30px;}
+    .sub-container{position: relative; text-align: justify; font-family: system-ui; margin: 10px;}
+      .sub-container img{width:100%}
+      .text-opacity{opacity: 50%; font-family: serif; margin: 15px 0px 15px 0px;}
+      .contact-button{color:black; background-color: #f1f1f1; width: 100%; border: none; padding: 8px 16px; cursor: pointer; font-size: inherit; margin: 10px 0px 10px 0px; padding: 10px;}
+
+/*Contact*/
+.contact-container{margin: 50px 50px;}
+  .contact-text{border-bottom: 1px solid gray;}
+  .filler{display: inherit; margin: 16px 0px 16px 0px; padding: 10px; width: 100%; font-size: inherit;}
+  .button{color: #fff!important;
+    background-color: #000!important;
+    margin-top: 16px!important;
+    margin-bottom: 16px!important;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;}
+
+    /*Map*/
+    .map-image{margin: 0px 20px 20px 20px;}
+    .map-image img{width: 100%;}
+
+    /*Footer*/
+    .footer{color: white; background-color: black; text-align: center; padding: 3%;}
+
+    @media only screen and (max-width: 1080px){
+  
+      .flex-container{
+        display:block;
+        width:100%;
+      }
+      .display-container{
+        display:inline-block;
+        width:calc(50% - 22px)
+      }
+      #About{
+        width:90%;
+        margin: 0 auto;
+      }
+      #About .container .flex-container{
+        display:block;
+        width: 100%;
+      }
+        #About .container .flex-container .sub-container{
+        display:inline-block;
+        width: calc(50% - 22px);
+        margin:10px;
+      }
+        }

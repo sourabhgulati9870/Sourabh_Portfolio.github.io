@@ -1,0 +1,212 @@
+@import url('http://fonts.googlepis.com/css2?family=ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Header*/
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.nav-list {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 36px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    color: gray;
+}
+
+.rightNav {
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    width: 115px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('/image/venue.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+
+/*Main Content*/
+
+.firstSection {
+    height: 100vh;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstHalf {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf {
+    width: 30%;
+}
+
+.secondHalf img {
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.text-big {
+    font-size: 41px;
+}
+
+.text-small {
+    font-size: 18px;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 7px 3;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+
+/*Content*/
+
+.content {
+    background-color: black;
+}
+
+
+/*Content Right*/
+
+.section {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'ubuntu', sans-serif;
+    text-align: justify!important;
+    color: white;
+}
+
+.paras {
+    padding: 0px 65px;
+}
+
+.thumbnail img {
+    border: 3px solid white;
+    border-radius: 25%;
+}
+
+
+/*Content Left*/
+
+.section-left {
+    flex-direction: row-reverse;
+}
+
+.sectionSubTag {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*About*/
+
+
+/*footer*/
+
+.footer {
+    text-align: center;
+}
+
+.footer p {
+    font-size: 41px;
+    font-weight: 500;
+    margin-top: 2%;
+}
+
+.name input {
+    width: 50%;
+    height: 20px;
+    margin: 10px;
+}
+
+.contactNo input {
+    width: 50%;
+    height: 20px;
+    margin: 10px;
+}
+
+.emailId input {
+    width: 50%;
+    height: 20px;
+    margin: 10px;
+}
+
+.message input {
+    width: 50%;
+    height: 200px;
+    margin: 10px;
+}
